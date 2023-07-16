@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Condensed&display=swap');
+* {
+    margin:0;
+    padding:0;
+    font-family:'Roboto Condensed', 'Amatic SC';
+}
+
+body{
+    background: url(https://primaryleap.co.uk/images/wikileap/post_level_header/thumb_cropped/df248e699282f304c660b187eefb69867fd978cf.png); 
+    min-width: 700px;
+}
+header {
+    width: 90%;
+    padding:1.5em  4.25em;
+    background-color:none ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 99; */
+}
+
+.logo{
+    font-family: 'Amatic SC';
+    font-size: 2.7em;
+    color: aliceblue;
+    user-select: none;
+}
+
+.nav a{
+    font-size: 1.1em;
+    color: aliceblue;
+    margin-left: 1em;
+}
+
+.nav .button {
+    width:8.125em;
+    height:3.125em;
+    background:transparent;
+    border:2px solid white;
+    border-radius: 0.5em;
+    font-size: 1em;
+    color:aliceblue;
+    margin-left: 1.3em;
+    transition: .5s;
+}
+
+.nav .button:hover{
+    background-color: rgb(106, 176, 201);
+}
+
+.login {
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 40%;
+    height:30%;
+    width: 20%;
+}
+.container {
+    background-color: #FFF;
+    padding: 2em;
+    border-radius: 10px
+}
+    
+.title {
+    text-align: center;
+    color: #777;
+}
+    
+.loginnn {
+    display: flex;
+    flex-direction: column;
+    height: 6em;
+}
+
+.voity {
+    font-size: 1.3em;
+    padding: 1.7%;
+    background-color:aliceblue;
+    border-radius: 0.5em;
+    color:rgb(131, 189, 227);
+    border-color: white;
+}
+
+.un {
+    height: 2.5em;
+}
+
+.pw {
+    margin-top: 3%;
+    height:2.5em;
+}
+
+
+.h1 {
+    margin: 3%;
+    color:rgb(131, 189, 227);
+}
+
+.plane{
+    width: 26%;
+    margin-left: 30%;
+    margin-top: 3%;
+    
+}
+
+.plane2 {
+    width:20%;
+    margin-left: 50%;
+    z-index: 999999;
+}
+
+.samoletreg {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
